@@ -1,0 +1,51 @@
+// Variables
+$fondo1: #ffe4ec;
+$fondo2: #ffd6e7;
+$color-titulo: #c2185b;
+$color-footer: #880e4f;
+
+$rosa1: #f8bbd0;
+$rosa2: #f48fb1;
+$rosa3: #ec407a;
+
+// Estilos
+body {
+  background: linear-gradient(135deg, $fondo1, $fondo2);
+  font-family: Arial, sans-serif;
+}
+
+.titulo {
+  color: $color-titulo;
+  font-weight: bold;
+}
+
+.card-custom {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.rosa1 {
+  background: $rosa1;
+}
+
+.rosa2 {
+  background: $rosa2;
+}
+
+.rosa3 {
+  background: $rosa3;
+  color: white;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+footer {
+  color: $color-footer;
+  font-weight: bold;
+}
